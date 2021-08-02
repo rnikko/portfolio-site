@@ -16,17 +16,97 @@ body {
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-.hello-fade-enter-active,
-.hello-fade-leave-active {
-  transition: opacity 0.5s ease;
-}
-.hello-fade-enter,
-.hello-fade-leave-to {
-  opacity: 0;
-}
-
 .ru {
   font-family: 'Nunito', sans-serif;
+}
+
+.text-outline-shadow {
+  color: rgb(252, 252, 252);
+  -webkit-text-stroke: .015em rgb(15, 15, 15);
+  text-shadow: .02em .02em 0 rgb(15, 15, 15);
+}
+
+.dark .text-outline-shadow {
+  color: rgb(31, 41, 55);
+  -webkit-text-stroke: .015em rgb(249, 250, 251);
+  text-shadow: .02em .02em 0 rgb(249, 250, 251);
+}
+
+#light-switch {
+  float: right;
+  cursor: pointer;
+  opacity: 0.25;
+}
+
+#hello-text-wrap {
+  overflow: hidden;
+  height: 60px;
+  /*float: left;*/
+  /*position: relative;*/
+  /*top: 40px;*/
+}
+
+.text-scroll {
+  position: relative;
+  top: 0;
+  left: 0;
+  /*color: #e74c3c;*/
+  /*display: inline-block;*/
+  /*white-space: nowrap;*/
+
+  /*animation*/
+  -webkit-animation:text-scroll 10s;
+  -moz-animation:text-scroll 10s;
+  -ms-animation:text-scroll 10s;
+  -o-animation:text-scroll 10s;
+  animation:text-scroll 10s;
+  /*animation-iteration-count*/
+  -webkit-animation-iteration-count:infinite;
+  -moz-animation-iteration-count:infinite;
+  -ms-animation-iteration-count:infinite;
+  -o-animation-iteration-count:infinite;
+  animation-iteration-count:infinite;
+  /*animation-delay*/
+  -webkit-animation-delay:2s;
+  -moz-animation-delay:2s;
+  -ms-animation-delay:2s;
+  -o-animation-delay:2s;
+  animation-delay:2s;
+}
+@keyframes text-scroll{
+  0%  { top: 0px; }
+  20% { top: -60px; }
+  40% { top: -120px; }
+  60% { top: -180px; }
+  80% { top: -240px; }
+}
+@-webkit-keyframes text-scroll {
+  0%  { top: 0px; }
+  20% { top: -60px; }
+  40% { top: -120px; }
+  60% { top: -180px; }
+  80% { top: -240px; }
+}
+@-moz-keyframes text-scroll {
+  0%  { top: 0px; }
+  20% { top: -60px; }
+  40% { top: -120px; }
+  60% { top: -180px; }
+  80% { top: -240px; }
+}
+@-o-keyframes text-scroll {
+  0%  { top: 0px; }
+  20% { top: -60px; }
+  40% { top: -120px; }
+  60% { top: -180px; }
+  80% { top: -240px; }
+}
+@keyframes text-scroll {
+  0%  { top: 0px; }
+  20% { top: -60px; }
+  40% { top: -120px; }
+  60% { top: -180px; }
+  80% { top: -240px; }
 }
 
 a {

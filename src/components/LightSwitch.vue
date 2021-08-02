@@ -9,14 +9,6 @@
   </div>
 </template>
 
-<style>
-#light-switch {
-  float: right;
-  cursor: pointer;
-  opacity: 0.25;
-}
-</style>
-
 <script>
 import { ref, watch } from 'vue'
 
