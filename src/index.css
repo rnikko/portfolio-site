@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: rgb(15, 15, 15);
+  background-color: rgb(252, 252, 252);
+}
+
+#app {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.hello-fade-enter-active,
+.hello-fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+.hello-fade-enter,
+.hello-fade-leave-to {
+  opacity: 0;
+}
+
+.ru {
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+a::after {
+  content: '';
+  background: rgba(34, 206, 34, 0.3);
+  width: 100%;
+  flex: 0 1 auto;
+  height: calc(100% - 0.9rem);
+  position: absolute;
+  left: 0.25rem;
+  top: 0.9rem;
+  transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
+}
+
+.dark a::after {
+  background: rgba(180, 180, 180, 0.25);
+}
+
+a:hover:after {
+  left: -2px;
+  top: -2px;
+  height: calc(100% + 4px);
+  width: calc(100% + 4px);
+}
