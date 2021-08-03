@@ -61,17 +61,17 @@ body {
   -o-animation:text-scroll 10s;
   animation:text-scroll 10s;
   /*animation-iteration-count*/
-  -webkit-animation-iteration-count:infinite;
-  -moz-animation-iteration-count:infinite;
-  -ms-animation-iteration-count:infinite;
-  -o-animation-iteration-count:infinite;
-  animation-iteration-count:infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   /*animation-delay*/
-  -webkit-animation-delay:2s;
-  -moz-animation-delay:2s;
-  -ms-animation-delay:2s;
-  -o-animation-delay:2s;
-  animation-delay:2s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  animation-delay: 2s;
 }
 @keyframes text-scroll{
   0%  { top: 0px; }
