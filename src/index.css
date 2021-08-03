@@ -107,6 +107,19 @@ body {
   40% { top: -120px; }
   60% { top: -180px; }
   80% { top: -240px; }
+
+#about p:hover .about-text {
+  background-position: -100% 0;
+}
+.about-text {
+  background: linear-gradient(to right, transparent 50%, rgba(205, 170, 242, 0.3) 50%);
+  background-size: 200%;
+  transition: background 0.5s ease-in-out;
+}
+.dark .about-text {
+  background: linear-gradient(to right, transparent 50%, rgba(180, 180, 180, 0.4) 50%);
+  background-size: 200%;
+  transition: background 0.5s ease-in-out;
 }
 
 a {
@@ -114,7 +127,6 @@ a {
   overflow: hidden;
   text-decoration: none;
 }
-
 a::after {
   content: '';
   background: rgba(34, 206, 34, 0.3);
@@ -126,11 +138,9 @@ a::after {
   top: 0.9rem;
   transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
 }
-
 .dark a::after {
-  background: rgba(180, 180, 180, 0.25);
+  background: rgba(180, 180, 180, 0.4);
 }
-
 a:hover:after {
   left: -2px;
   top: -2px;
