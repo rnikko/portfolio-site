@@ -10,7 +10,7 @@
         こんにちは<br />
         Yo<br />
         よー<br />
-        Привет
+        <span class="ru">Привет</span>
       </p>
     </div>
     <p
