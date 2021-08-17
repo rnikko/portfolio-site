@@ -32,8 +32,7 @@ export default {
   name: 'Contact',
   setup: () => {
     const github = 'https://github.com/rnikko'
-    const email = 'mailto:rapsmuli@gmail.com'
-    const resume = ''
+    const email = 'mailto:me@raphaelmuli.com'
 
     return {
       github,
