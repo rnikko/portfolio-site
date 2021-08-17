@@ -28,6 +28,9 @@
 </template>
 
 <script>
+// import resume from '../assets/logo.png'
+import resume from '../assets/resume_mid2021.pdf'
+
 export default {
   name: 'Contact',
   setup: () => {
