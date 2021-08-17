@@ -73,40 +73,34 @@ body {
   -o-animation-delay: 2s;
   animation-delay: 2s;
 }
-@keyframes text-scroll{
+@keyframes text-scroll {
   0%  { top: 0px; }
   20% { top: -60px; }
   40% { top: -120px; }
   60% { top: -180px; }
-  80% { top: -240px; }
+  80% { top: -247px; }
 }
 @-webkit-keyframes text-scroll {
   0%  { top: 0px; }
   20% { top: -60px; }
   40% { top: -120px; }
   60% { top: -180px; }
-  80% { top: -240px; }
+  80% { top: -247px; }
 }
 @-moz-keyframes text-scroll {
   0%  { top: 0px; }
   20% { top: -60px; }
   40% { top: -120px; }
   60% { top: -180px; }
-  80% { top: -240px; }
+  80% { top: -247px; }
 }
 @-o-keyframes text-scroll {
   0%  { top: 0px; }
   20% { top: -60px; }
   40% { top: -120px; }
   60% { top: -180px; }
-  80% { top: -240px; }
+  80% { top: -247px; }
 }
-@keyframes text-scroll {
-  0%  { top: 0px; }
-  20% { top: -60px; }
-  40% { top: -120px; }
-  60% { top: -180px; }
-  80% { top: -240px; }
 
 #about p:hover .about-text {
   background-position: -100% 0;
