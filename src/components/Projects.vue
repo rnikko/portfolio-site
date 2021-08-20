@@ -22,7 +22,7 @@ export default {
     const projects = [
       {
         'name': 'Weathernews Python API Library',
-        'link': ''
+        'link': 'https://github.com/rnikko/weathernews-python'
       },
       {
         'name': 'Yamanote Line Station Information Screen',
@@ -34,11 +34,11 @@ export default {
       },
       {
         'name': 'General Purpose + Music Discord Bot',
-        'link': ''
+        'link': 'https://github.com/rnikko/sportjoke-dev'
       },
       {
-        'name': '3D Pipes Screensaver in Javascript',
-        'link': ''
+        'name': 'Spotify Playback Speed Chrome Extension',
+        'link': 'https://github.com/rnikko/spotify-playback-speed'
       }
     ]
     return {
