@@ -21,24 +21,24 @@ export default {
   setup: () => {
     const projects = [
       {
-        'name': 'Weathernews Python API Library',
-        'link': 'https://github.com/rnikko/weathernews-python'
-      },
-      {
         'name': 'Yamanote Line Station Information Screen',
-        'link': ''
+        'link': 'https://wonderful-bohr-b3db75.netlify.app'
       },
       {
         'name': 'Better Yahoo Transit JP',
         'link': ''
       },
       {
-        'name': 'General Purpose + Music Discord Bot',
-        'link': 'https://github.com/rnikko/sportjoke-dev'
+        'name': 'Spotify Playback Speed UI Extension',
+        'link': 'https://github.com/rnikko/spotify-playback-speed'
       },
       {
-        'name': 'Spotify Playback Speed Chrome Extension',
-        'link': 'https://github.com/rnikko/spotify-playback-speed'
+        'name': 'Weathernews Python API Library',
+        'link': 'https://github.com/rnikko/weathernews-python'
+      },
+      {
+        'name': 'General Purpose + Music Discord Bot',
+        'link': 'https://github.com/rnikko/sportjoke-dev'
       }
     ]
     return {
