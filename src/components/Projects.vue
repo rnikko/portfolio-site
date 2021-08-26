@@ -26,7 +26,7 @@ export default {
       },
       {
         'name': 'Better Yahoo Transit JP',
-        'link': ''
+        'link': 'https://secure-earth-69090.herokuapp.com'
       },
       {
         'name': 'Spotify Playback Speed UI Extension',
@@ -41,6 +41,13 @@ export default {
         'link': 'https://github.com/rnikko/sportjoke-dev'
       }
     ]
+
+    // ping heroku apps so they aren't idle
+    for (const p of projects) {
+      if (p.link.indexOf('herokuapp') >= 0) {
+        fetch(p.link)
+      }
+    }
     return {
       projects
     }
