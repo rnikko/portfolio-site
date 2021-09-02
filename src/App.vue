@@ -1,15 +1,17 @@
 <template>
   <div
-    class="max-w-screen-lg p-6 py-10 md:p-20 md:py-24 lg:p-10 lg:py-16"
+    class="lg:max-w-screen-lg p-6 py-10 md:p-20 md:py-24 lg:p-10 lg:py-16 md:max-w-screen-md"
     style="margin: 0 auto; min-width: 375px"
   >
     <LightSwitch />
     <Hello />
     <div class="space-y-8 md:space-y-10 lg:space-x-8 lg:space-y-0 lg:grid lg:grid-cols-2">
-      <About />
+      <div>
+        <About />
+        <Contact class="my-8 md:my-10" />
+      </div>
       <Projects />
     </div>
-    <Contact class="my-8 md:my-10" />
   </div>
 </template>
 
