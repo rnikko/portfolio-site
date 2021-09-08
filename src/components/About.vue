@@ -3,7 +3,7 @@
     <div class="text-xl font-light space-y-4 md:space-y-6">
       <p>
         <span class="about-text">
-          I'm a software developer mainly creating things for the web. If I'm not creating things for the web, I'm probably writing scripts to automate things or learning new stuff.
+          I'm a software engineer mainly creating things for the web. If I'm not creating things for the web, I'm probably writing scripts to automate things or learning new stuff.
         </span>
       </p>
       <p>
