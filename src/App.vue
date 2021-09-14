@@ -1,6 +1,6 @@
 <template>
   <div
-    class="lg:max-w-screen-lg p-6 py-10 md:p-20 md:py-24 lg:p-10 lg:py-16 md:max-w-screen-md"
+    class="lg:max-w-screen-lg px-6 py-10 md:px-20 md:pt-24 lg:px-10 lg:pt-16 md:max-w-screen-md"
     style="margin: 0 auto; min-width: 375px"
   >
     <LightSwitch />
